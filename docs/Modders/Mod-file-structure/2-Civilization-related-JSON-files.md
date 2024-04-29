@@ -12,7 +12,7 @@ Each belief has the following structure:
 |-----------------|-----------------|----------|-----------------------------------------------------------------------------------|
 | name            | String          | Required |                                                                                   |
 | type            | Enum            | Required | Type of belief. Value must be Pantheon, Founder, Follower or Enhancer             |
-| uniques         | List of Strings | empty    | List of [unique abilities](../uniques.md) this belief adds to cities following it |
+| uniques         | List of Strings | empty    | List of [unique abilities](./uniques.md) this belief adds to cities following it |
 | civilopediaText | List            | empty    | See [civilopediaText chapter](5-Miscellaneous-JSON-files.md#civilopedia-text)     |
 
 ## Buildings.json
